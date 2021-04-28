@@ -438,7 +438,7 @@ function App() {
             placeholder="amount in Ether"
             value={amountToWithdraw}
             onChange={(event) => {
-              amountSet(event.target.value);
+              amountToWithdrawSet(event.target.value);
             }}
           />
         </Form>
