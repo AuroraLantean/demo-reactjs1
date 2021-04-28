@@ -1,0 +1,92 @@
+$breakpoint-tablet: 768px;
+$percentage: 17;
+$imageHeight: 200px;
+
+.menu-item {
+  //min-width: 100px;
+  //width: 250px;
+  //height: $imageHeight;
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(180, 176, 176);
+  margin: 0 7.5px 15px;
+  overflow: hidden;//to contain the enlarging background image!
+
+  &:hover {
+    cursor: pointer;
+  
+    & .background-image {
+      transform: scale(1.2);
+      transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);// https://developer.mozilla.org/en-US/docs/Web/CSS/easing-function
+    }
+  
+    & .content {
+      opacity: 0.9;
+    }
+  }
+
+  //className={`${size} menu-item`} 
+  // if "large" exists
+  &.large {
+    height: 380px;
+  }
+  &.small {
+    height: $imageHeight;
+    min-width: $imageHeight;
+    //height: 230~420px;
+    //min-width: 280px;
+    //width: 250px;
+    max-width: $imageHeight;
+    //max-width: 120px;
+  }
+
+  &:first-child {
+    margin-right: 7.5px;
+  }
+
+  &:last-child {
+    margin-left: 7.5px;
+  }
+  .background-image {
+    width: 100%;//contained within this div
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    }
+
+  .content {
+    height: 50px;
+    margin-top: 90px;
+    //padding: 0 20px 20px 0;
+    padding: 0 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(104, 104, 104);
+    opacity: 0.8;
+    position: absolute;// fixed in position regardless of other elements
+
+    .title {
+      font-weight: bold;
+      margin-bottom: 0px;
+      font-size: 18px;
+      color: #ffffff;
+    }
+
+    .subtitle {
+      font-weight: lighter;
+      font-size: 16px;
+      color: #ffffff;
+
+      //to specify special items following this subtitle class!
+      &.SoldOut {
+        color: red;
+        font-weight: bold;
+      }
+    }
+  }
+}
