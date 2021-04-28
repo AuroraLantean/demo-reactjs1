@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/demo-reactjs1/static/css/main.9e15151f.chunk.css",
+    "main.js": "/demo-reactjs1/static/js/main.4ecc6995.chunk.js",
+    "main.js.map": "/demo-reactjs1/static/js/main.4ecc6995.chunk.js.map",
+    "runtime-main.js": "/demo-reactjs1/static/js/runtime-main.55d0e499.js",
+    "runtime-main.js.map": "/demo-reactjs1/static/js/runtime-main.55d0e499.js.map",
+    "static/css/2.4bf9db1a.chunk.css": "/demo-reactjs1/static/css/2.4bf9db1a.chunk.css",
+    "static/js/2.57b77f2a.chunk.js": "/demo-reactjs1/static/js/2.57b77f2a.chunk.js",
+    "static/js/2.57b77f2a.chunk.js.map": "/demo-reactjs1/static/js/2.57b77f2a.chunk.js.map",
+    "index.html": "/demo-reactjs1/index.html",
+    "static/css/2.4bf9db1a.chunk.css.map": "/demo-reactjs1/static/css/2.4bf9db1a.chunk.css.map",
+    "static/css/main.9e15151f.chunk.css.map": "/demo-reactjs1/static/css/main.9e15151f.chunk.css.map",
+    "static/js/2.57b77f2a.chunk.js.LICENSE.txt": "/demo-reactjs1/static/js/2.57b77f2a.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/demo-reactjs1/static/media/outline-icons.ddae9b1b.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.55d0e499.js",
+    "static/css/2.4bf9db1a.chunk.css",
+    "static/js/2.57b77f2a.chunk.js",
+    "static/css/main.9e15151f.chunk.css",
+    "static/js/main.4ecc6995.chunk.js"
+  ]
+}
